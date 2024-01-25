@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Chart</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/chart.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🌤 SkyVision: Your Weather Odyssey🌦</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../html/index.html">Home🏠 </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/chart.html">Weather Chart📈 </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/calculator.html"
+                >Heat Index Calculator🧮
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <h2>Weather Temperature Chart</h2>
+
+      <div id="weatherChart"></div>
+
+      <div class="buttons">
+        <button id="forecastBtn">Show Forecast</button>
+        <button id="historicalBtn">Show Historical Data</button>
+      </div>
+    </main>
+
+    <footer class="mt-auto text-center text-white py-4">
+      <p class="mb-0">Copyright © 2024 Michal Belan</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="../scripts/chart.js"></script>
+  </body>
+</html>
