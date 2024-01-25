@@ -3,22 +3,6 @@ Weather App - SkyVision
 SkyVision is a web application that provides weather information, temperature charts, and a heat index calculator. 
 Stay informed about the current weather, explore historical data, and calculate the heat index for a given temperature and humidity.
 
-Table of Contents
-
-Features
-
-Getting Started
-
-Usage
-
-Dependencies
-
-Contributing
-
-Contact
-
-Features
-
 
 Weather Forecast:
 
