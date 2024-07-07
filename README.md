@@ -1,66 +1,29 @@
-Weather App - SkyVision
+# Weather App - SkyVision
 
-SkyVision is a web application that provides weather information, temperature charts, and a heat index calculator. 
-Stay informed about the current weather, explore historical data, and calculate the heat index for a given temperature and humidity.
+SkyVision je webová aplikácia poskytujúca informácie o počasí, teplotné grafy a kalkulátor teplotného indexu. 
+Buďte informovaní o aktuálnom počasí, preskúmajte historické dáta a vypočítajte teplotný index pre zadanú teplotu a vlhkosť.
 
+## Funkcie
 
-Weather Forecast:
+### Predpoveď počasia
 
-View the current weather forecast for London.
+- Zobrazte aktuálnu predpoveď počasia pre Londýn.
+- Prepínajte medzi predpoveďou a historickými údajmi.
 
-Toggle between forecast and historical data.
+### Teplotný graf
 
-Temperature Chart:
+- Vizualizujte trendy teploty v čase pomocou interaktívneho grafu.
 
-Visualize temperature trends over time using an interactive chart.
-Heat Index Calculator:
+### Kalkulátor teplotného indexu
 
-Calculate the heat index based on user-provided temperature and humidity.
-View the last 5 heat index calculations.
-Getting Started
-To use the SkyVision Weather App, follow these steps:
+- Vypočítajte teplotný index na základe zadaných hodnôt teploty a vlhkosti.
+- Zobraziť posledných 5 výpočtov teplotného indexu.
 
-Clone the repository:
+## Začíname
 
-bash
-Copy code
-git clone [https://github.com/MichalBelan/WeatherForecast]
-Open the index.html file in your web browser.
+Na použitie aplikácie SkyVision Weather App postupujte týmito krokmi:
 
-Usage
-Weather Forecast:
+1. Sklonujte repozitár:
 
-Click on "Home" in the navigation bar to view the weather forecast.
-Temperature Chart:
-
-Navigate to the "Weather Chart" page to visualize temperature trends.
-Click "Show Forecast" or "Show Historical Data" to update the chart accordingly.
-Heat Index Calculator:
-
-Visit the "Heat Index Calculator" page.
-
-Enter the temperature, select the unit, input humidity, and click "Calculate Heat Index."
-
-View the calculated heat index and the last 5 results in the history list.
-
-Dependencies
-
-Bootstrap: Front-end framework for styling.
-
-jQuery: JavaScript library for DOM manipulation.
-
-DataTables: jQuery plugin for interactive tables.
-
-Google Charts: Visualization library for charts.
-
-Contributing
-
-Contributions are welcome! Please follow the Contributing Guidelines to contribute to the project.
-
-Contact
-
-For any questions or feedback, please contact:
-
-michalbelan503@gmail.com
-
-Michal Belan
+   ```bash
+   git clone https://github.com/MichalBelan/WeatherForecast
